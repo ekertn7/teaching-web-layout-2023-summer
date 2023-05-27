@@ -1,0 +1,82 @@
+/* Контейнер для всех карточек */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+  height: 95vh;
+}
+
+/* Блок карточки */
+.card {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+}
+
+/* Изображение внутри карточки */
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Заголовок внутри карточки */
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Bangers', cursive;
+}
+
+/* Текст внутри карточки */
+.card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Кнопка внутри карточки */
+button {
+  border: none;
+  background-color: #e91e1e;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Блок стилей применяется при наведении курсора на кнопку */
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Блок стилей для экранов с максимальной шириной 1024px и меньше */
+@media screen and (max-width: 1024px) {
+  .card {
+    max-width: 200px;
+    padding: 10px;
+  }
+
+  .card img {
+    max-width: 150px;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.8rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 0.7rem;
+  }
+}
