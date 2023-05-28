@@ -1,0 +1,30 @@
+/* CONTENT */
+
+.product {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content:center;
+    flex-direction: row; 
+    gap: 15px;
+    min-height: 720px;
+}
+
+.product-card {
+    background-color:#b5d48c;
+    border-radius: 6px;
+    padding: 20px;
+    width: calc(20%-20px);
+}
+
+.product-card>.product-card__preview {
+    width: 180px;
+    height: 250px;
+}
+
+.product-card-content__header{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(79, 47, 2);
+    font-size: medium;
+}
