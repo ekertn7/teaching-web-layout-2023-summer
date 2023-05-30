@@ -1,0 +1,58 @@
+*{
+    outline:0;
+    cursor: default;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 16px;
+    color: #444444;
+}
+
+.wrapper{
+    display: block;
+    width: 100%;
+}
+.container{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.place{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: rgb(211, 229, 244);
+}
+
+.place-card{
+    background-color: aliceblue;
+    border-radius: 6px;
+    max-width: 20%;
+    overflow: hidden;
+}
+.place-card*{
+    margin-bottom: 10px;
+}
+.place-card__preview{
+    width: 100%;
+}
+.place-card-content{
+    padding: 0 10px;
+}
+.place-card__header{
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.place-card__description{
+    font-size: 16px;
+    padding: 10px 10px;
+}
