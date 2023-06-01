@@ -1,0 +1,85 @@
+   * {
+    font-family: "Arial";
+   }
+
+   .content {
+    background-color: #ecddbe69;
+    margin: -8px;
+   }
+
+    .head {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        background-color: #efdb85c1;
+        height: 12vh;
+    }
+    .head__name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    h1 {
+        font-family: "CENTURY GOTHIC";
+        font-size: 40pt;
+        margin: 0 0;   
+    }
+    h2 {
+        font-size: 12pt;
+        font-weight: normal;
+        margin: 0 0;  
+    }
+
+    .menu {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        gap: 50px;
+        background-color: #efdb8564;
+        height: 7vh;
+    }
+    .menu__item {
+        display: flex;
+        padding: 15px;
+        font-size: 14pt;
+    }
+    .menu__item:hover {
+        background-color: #a4986164;
+        cursor: pointer;
+    }
+    .menu__item-choice {
+        border-bottom: 5px solid black;  
+        font-weight: bold;
+    }
+
+    .product {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        min-height: 81vh;
+    }
+    .product__card
+    {
+        background-color: rgba(208, 191, 134, 0.536);
+        overflow: hidden;
+        border-radius: 7px;
+        max-width: 300px;
+        height: 370px;
+    }
+    .product__card:hover {
+        background-color: rgba(208, 191, 134, 0.814);
+        height: 390px;
+        cursor: pointer;
+    }
+    .product__card-name {
+        font-weight: bold;
+        padding: 0 10px 0 10px;
+    }
+    .product__card-text {
+        padding: 0 10px 0 10px;
+    }
+   
+ 
