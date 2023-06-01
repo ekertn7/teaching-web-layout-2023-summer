@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35%;
+    justify-content:center;
+    justify-content:last baseline;
+}
+
+.item{
+    
+    margin: 0 15px;
+    background-color: black;
+    border: 5px solid purple;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+img{
+    width:150px; 
+    height:150px;
+   
+}
+
+.tx{
+    text-align: center;
+    font: sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.back{
+    background-image: url(source/vhs-broken.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item:hover{
+    transform: scale(1.5); 
+}
