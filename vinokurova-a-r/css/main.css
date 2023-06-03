@@ -1,0 +1,49 @@
+.actors {
+  height: 90vh;
+  gap: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.photo {
+  width: 230px;
+  background-color:rgba(255,182,193);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.photo img {
+  height: 160px;
+  width: 190px;
+  object-fit:contain;
+}
+
+.photo p {
+  font-family:Arial, Helvetica, sans-serif;
+  color: #ff006a;
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+.photo h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  font-family: serif;
+}
+
+button {
+  background-color: #f9f9af;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+
+button:hover {
+  transform: translateY(-9px);
+  color: cyan;
+}
+
