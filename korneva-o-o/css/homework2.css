@@ -1,0 +1,50 @@
+body
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:0px;
+}
+
+.container
+{
+    height: 100vh;
+    width : 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-content: space-between;
+}
+
+.product-container
+{
+    display : flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    align-content: space-between;
+}
+
+.prod-card 
+{
+    display : flex;
+    flex-direction: column;
+    border : solid 1px rgb(107, 178, 240);
+    border-radius: 20px;
+    padding : 5px;
+    width: calc(20% - 10px);
+    background-color: rgb(107, 178, 240);
+}
+
+.card_name 
+{
+    overflow : hidden;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.card_description 
+{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(249, 249, 249, 0.497);
+}
