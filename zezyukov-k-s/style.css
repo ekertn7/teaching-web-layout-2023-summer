@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial;
+    background-color: rgb(3, 3, 3);
+    font-weight: 400;
+}
+
+h2 {
+    margin-bottom: 10px;
+    background-color: rgb(187, 175, 175);
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: #aca4a4;
+}
+    
+.container__boxes {
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-01/1674292545_catherineasquithgallery-com-p-serie-kirpichiki-fon-foto-118.jpg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgb(85, 84, 84);
+    gap: 15px;
+    height: 60vh;
+}
+
+.container__boxes__box {
+    text-align: center;
+    background-color: rgb(187, 175, 175);
+    width: 200px;
+    border: solid rgb(187, 175, 175);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 20px;
+}
+
+.container__boxes__box:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px 0px rgb(247, 243, 243);
+    width: 300px;
+}
+ 
+img {
+    width: 100%;
+}
