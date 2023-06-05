@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+.containers {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+    height: 95vh;
+}
+
+.container_style {
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px black;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: double;
+    border-color: bisque;
+    border-width: 5px;
+}
+
+img {
+    width: 50%;
+}
