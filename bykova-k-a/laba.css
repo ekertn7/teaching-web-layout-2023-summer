@@ -1,0 +1,48 @@
+@font-face{
+    font-family: turtle;
+    src: url(fonts/font/f.eot);
+    src: url(fonts/font/f.eot?#iefix) format("embedded-opentype");
+    src: url(fonts/font/f.woff) format("woff");
+    src: url(fonts/font/f.ttf) format("truetype");
+}
+
+.main{
+	background: url(back.jpg);
+}
+
+.all_cards {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content:center;
+    flex-direction: row; 
+    gap: 15px;
+    min-height: 705px;
+}
+
+.card {
+    background-color:rgb(46, 53, 45, 0.8);
+    width: 250px;
+	text-align: center;
+	border-radius: 5%; 
+	padding: 40px;
+	overflow: hidden;
+}
+
+.card_img{
+    width: 230px;
+    height: 300px;
+	border-radius: 5%;
+}
+
+h2{
+    text-align: center;
+    font-family:turtle;
+    color: rgb(255, 255, 255, 1);
+    font-size: 2.5em;
+	transition: 1s;
+}
+h2:hover{
+	transform: scale(1.2);
+
+}
