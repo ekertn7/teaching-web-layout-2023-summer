@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 5%;
+    gap: 15px;
     height: 95vh;
 }
 
