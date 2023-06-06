@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 25px;
+    height: 100%;
+    box-sizing:     ;
+}
+
+.block {
+    width: calc(25% - 15px);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.block:first-child {
+    margin-left: 15px;
+}
+
+.block:last-child {
+    margin-right: 15px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
