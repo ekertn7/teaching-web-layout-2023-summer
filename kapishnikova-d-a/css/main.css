@@ -1,0 +1,42 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(0deg, #0a062b, #1e899f) fixed;
+  }
+
+  .norman{
+	margin-top: 400px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	gap: 15px;
+  }
+
+  img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	object-fit: cover;
+  }
+
+  .polaroid {
+	width: 400px;
+	background-color: #8d668c;
+	border-radius: 400px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	padding: 40px;
+  } 
+
+  button {
+	border-color: rgb(6, 26, 80);
+	border-radius: 5px;
+	background-color: #f1e2fc;
+	padding: 10px 20px;
+	transition: all 1s ease;
+	cursor: pointer;
+  }
+
+  button:hover {
+	box-shadow: 0 5px 10px rgb(4, 4, 4);
+	transform: translateY(9px);
+  }
