@@ -1,0 +1,41 @@
+body{
+    font-weight: normal;
+    color: #422d2d;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: block;
+    width: 1300px;
+    margin: 200px auto;
+}
+
+.place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    border:3px groove black;
+    background-color: rgb(133, 177, 220);
+    border-radius: 15px;
+}
+
+.place-card{
+    background-color: rgba(210, 251, 193, 0.7);
+    border-radius: 15px;
+    max-width: 20%;
+    overflow: hidden;/*для того чтобы картинка не выходила за рамки родительского контейнера,то есть были скруглены края*/
+}
+
+.place-card__preview{
+    width: 100%;
+}
+.place-card-content{
+    text-align: center;
+}
+.place-card__header{
+    font-size: 20px;
+    padding: 5px 0px;
+}
