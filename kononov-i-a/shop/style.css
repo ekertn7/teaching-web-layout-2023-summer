@@ -1,56 +1,56 @@
-body{
-	background-size:cover;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	margin:auto;
+body {
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
 	height: 100vh;
-	background: url('background.jpg')
+	background: url('background.jpg');
 }
 
-.center{
-	justify-content:center;
+.center {
+	justify-content: center;
 }
 
-.title{
-	border:2px solid;
-	border-radius:30px;
+.center__title {
+	border: 2px solid;
+	border-radius: 30px;
 	background-color: white;
-	text-align:center;
-	margin-bottom:50px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
-.units{
-	display:flex;
-	gap:10px;
+.center__units {
+	display: flex;
+	gap: 10px;
 }
 
-.unit{
-	display:flex;
-	flex-direction:column;
-	padding:20px;
-	border:2px solid;
-	border-radius:30px;
-	align-items:center;
+.unit {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border: 2px solid;
+	border-radius: 30px;
+	align-items: center;
 	background-color: white;
 }
 
-.unit img{
+.unit__image {
 	width: 250px;
-    height: 250px;
-    object-fit: cover;
-    margin-bottom: 10px;
-    border: 2px solid black;
-    border-radius: 30px;
+	height: 250px;
+	object-fit: cover;
+	margin-bottom: 10px;
+	border: 2px solid black;
+	border-radius: 30px;
 }
 
-button {
-	text-align:center;
+.unit__button {
+	text-align: center;
 	padding: 10px 10px;
 	background-color: red;
 	color: white;
 	border: 2px solid;
-	border-color:black;
+	border-color: black;
 	border-radius: 30px;
 	cursor: pointer;
 }
