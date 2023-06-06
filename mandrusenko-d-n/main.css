@@ -1,0 +1,39 @@
+body
+{
+    background-color:beige;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+    width: 1400px;
+    background-color:lightsteelblue;
+    margin: 0 auto;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    color:darkblue;
+}
+
+.container_element
+{
+    width: 15vw;
+    height: 22vh;
+    display: block;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color:lightskyblue;
+    overflow: hidden;
+}
+
+img
+{
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
