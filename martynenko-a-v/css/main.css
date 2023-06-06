@@ -1,0 +1,41 @@
+.product-food {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 4%;
+  height: 95vh;   
+}
+body{
+  background-color: #854309;
+}
+.product {
+  width: 240px;
+  background-color: #dfb68c;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.product h3 {
+  font-family: 'Times New Roman', serif;
+  margin: 10px 0;
+  font-size: 1.4em;
+}
+.product img {
+  object-fit: cover;
+  border-radius: 10%;
+  width: 170px;
+  height: 170px;
+}
+@media screen and (max-width: 1024px) {
+  .product {
+    max-width: 200px;
+    padding: 8px;
+  }
+  .product p {
+    font-size: 0.7em;
+  }
+  .product img {
+    max-width: 140px;
+  }
+}
