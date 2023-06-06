@@ -1,0 +1,42 @@
+body{
+	font-family:'Times New Roman';
+	padding: 0;
+	margin: 0;
+	font-wieght: 100;
+	flex-direction: column;
+	background: #FFC0CB;
+}
+.container {
+	position: absolute;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-evenly;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container_photo {
+	background: white;
+	position: relative;
+    width: 290px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px white;
+    padding: 5px; 
+    border-radius: 40px;
+    border-style: double;
+    border-color: #ebe6e0;
+    border-width: 5px;
+}
+
+.container_photo p{
+	font-size: 20px;
+	font-weight: bold;
+    background-color:#FFC0CB;
+    border-radius: 40px;
+}
+
+img {
+    width: 50%;
+}
