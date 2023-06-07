@@ -1,0 +1,65 @@
+body{
+    font-family: serif;
+	background-color: #B0E0E6;
+}
+
+.card{
+    display: block;
+    background-color: #BA55D3;
+    width: 350px;
+    height: 500px;
+    margin: 100px auto 10px;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+.title{
+    font-family: 'Rubik Iso', cursive;
+    text-align: center;
+    font-size: 38px;
+}
+
+.text{
+    font-size: 25px;
+}
+
+.paragraph {
+	margin-top: 10px;
+    margin-bottom: 10px;
+	font-family: serif;
+}
+
+.author{
+    margin-top: 65px;
+	text-align: right;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+button{
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+	cursor: pointer;
+}
+button:hover{
+    transform: translateY(-3px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.like{
+    background-color: #32CD32;  
+}
+
+.dislike{
+    background-color: #DC143C;
+}
