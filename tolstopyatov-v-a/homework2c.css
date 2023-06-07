@@ -1,7 +1,6 @@
-body
-{
-	background: url('Fon.gif') fixed center no-repeat;
-	background-size: cover;
+body {
+    background: url('Fon.gif') fixed center no-repeat;
+    background-size: cover;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -9,16 +8,13 @@ body
     margin:auto;
 }
 
-
-.cards
-{
+.cards {
     display:flex;
     justify-content:center;
     gap:10px;
 }
 
-.card
-{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,8 +24,7 @@ body
     border-radius: 25px;
 }
 
-.card img
-{
+.card__img {
     width: 250px;
     height: 250px;
     object-fit: cover;
@@ -38,7 +33,7 @@ body
     border-radius: 5px;
 }
 
-button {
+.card__button {
     text-align:center;
     padding: 5px 10px;
     background-color: green;
@@ -47,4 +42,9 @@ button {
     border-color:black;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.card__title
+{
+	font-size:40px;
 }
