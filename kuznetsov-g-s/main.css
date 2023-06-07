@@ -1,0 +1,95 @@
+@font-face{
+  font-family: AC-Compacta;
+  font-style: normal;
+  src:url(fonts/AC-Compacta.ttf) format("truetype"),
+      url(fonts/AC-Compacta.eot) format("eot"),
+      url(fonts/AC-Compacta.eot?#iefix) format("embedded-opentype"),
+      url(fonts/AC-Compacta.woff) format("woff"),
+      url(fonts/AC-Compacta.woff2) format("woff2");
+}
+
+body {
+background: url(img/back.jpg);
+background-attachment: fixed;
+}
+
+.RowOfCards {
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row; 
+  gap: 15px;
+  min-height: 400px;
+}
+
+.Card {
+  background-color:rgba(89, 75, 60, 0.9);
+  width: 250px;
+  text-align: center;
+  align-items: center;
+  border-radius: 5%; 
+  padding: 20px;  
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+img{
+  width: 230px;
+  height: 260px;
+}
+
+.Scale{
+	display: inline-block;
+	overflow: hidden;
+  border-radius: 5%;
+}
+
+.ProductPhoto{
+  transition: 1s;
+  display: block;
+}
+
+.ProductPhoto:hover{
+  transform: scale(1.2);
+}
+
+.Header{
+	flex: 1;
+  text-align: center;
+  font-family: AC-Compacta;
+  font-size: 200px;
+  color:whitesmoke;
+  margin-top: 40px;
+}
+
+form{
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+button{
+  font-size: 20px;
+  border-radius: 10px;
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  text-decoration: solid;
+  border: none;
+  background-color: rgba(89, 75, 60);
+}
+
+button:hover{
+  background-color: whitesmoke;
+  color:rgba(89, 75, 60);
+}
+
+h2{
+  text-align: center;
+  text-decoration: solid;
+  color: rgba(255, 255, 255);
+  font-size: 20px;
+}
