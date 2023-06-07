@@ -1,0 +1,33 @@
+body {
+    background: #799ee4;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+} 
+
+.card {
+    background-color: white;
+    text-decoration: none;
+    color: #444;
+    display:flex;
+    flex-direction:column;
+    min-height:100%;
+  }
+
+ .game {
+    display: flex;
+    justify-content:center ;
+    flex-wrap: nowrap;
+    
+}
+
+.grid__characters {
+    max-width: 260px;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 6px;
+}
+    
+   
