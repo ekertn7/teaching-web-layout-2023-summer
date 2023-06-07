@@ -1,0 +1,50 @@
+body {
+    background: url('Fon.gif') fixed center no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    margin:auto;
+}
+
+.cards {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: bisque;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.card__img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.card__button {
+    text-align:center;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: 2px solid;
+    border-color:black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card__title
+{
+	font-size:40px;
+}
