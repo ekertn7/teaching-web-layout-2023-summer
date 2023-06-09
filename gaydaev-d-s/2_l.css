@@ -1,0 +1,47 @@
+html {
+	  background-color: #e6df72;
+	  min-width: 300px;
+}
+body {
+	  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	  font-size: 1rem;
+	  font-weight: 400;
+	  line-height: 1.4;
+}
+.all_cards {
+    height: 98vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 10px rgba(0, 0, 0, 0.24);
+	color: #2d0e52;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f6004e;
+
+}
+.card__image {
+    width: 70%;
+    height: 35%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.card__name {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.card__description {
+    margin: 16px;
+    margin-top: 5px;
+    font-size: 12pt;
+    text-align: center;
+}
