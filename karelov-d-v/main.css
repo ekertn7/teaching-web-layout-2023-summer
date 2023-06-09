@@ -1,0 +1,67 @@
+.container {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px auto;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 28px;
+    color: #444444;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px rgb(114, 114, 114);
+}
+
+p {
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.container__author {
+
+ text-align: end;
+    font-family: Bad;
+    font-size: 40px;
+    padding-right: 10px;
+
+}
+
+button {
+    padding: 3px;
+    margin: 5px auto;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.like, .dislike {
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+    padding: 20px;
+    font-family: 'georgia', sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.like {
+    background-color: rgb(88, 175, 88);
+
+}
+
+.dislike {
+    background-color: rgb(170, 83, 83);
+}
