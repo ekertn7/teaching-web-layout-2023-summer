@@ -5,36 +5,14 @@
     <title>cards</title>
       <style>
         .container{
-            width: 1200px;
-            height: 1000px;
-			align: center;
-     margin-top: 600px;
-    padding-left:78px;
-			display: grid;
-            grid-template-columns: repeat(4, 250px);
-            grid-template-rows: 250px;
-            grid-gap:15px;
-            grid-template-areas: 
-            "container1 container2 container3 container4"
-            
-       
-        }
- 
-        .container1, .container2, .container3, .container4{
-    margin: 0;
-    border: 0; 
-    border-radius: 5%;      
-}  
-   .container1{
-    grid-area: container1; background-color:#238AFF; text-align: center}
-    .container2{
-    grid-area: container2; background-color:#238AFF;text-align: center}
-    .container3{
-    grid-area: container3;background-color:#238AFF;text-align: center}
-    .container4{
-    grid-area: container4;background-color:#238AFF;text-align: center}
- 
- 
+           display:flex;
+		   flex-flow:row nowrap;
+		   justify-content:center;
+		   align-items:flex-end;
+		   gap:15px;
+		   height:100vh; }
+ .container1, .container2, .container3, .container4{
+ background-color:#238AFF; text-align: center }
    
  </style> 
 
@@ -44,24 +22,24 @@
 		
 <div class="container1">
     <p class="tag"><b>Шоколадный торт</b></p>
-   <img src="image/shoko.jpg"  width="200" height="150"  class="cards"/>
+   <img src="image/shoko.jpg"  width="200" height="200"  class="cards"/><br><br>
       <input type="button" value="выбрать"> 
       
       
 </div>
 <div class="container2">
     <p class="tag"><b>Клубничный торт</b></p>
-	<img src="image/klubnika.jpg"  width="200" height="150"  class="cards"/>
+	<img src="image/klubnika.jpg"  width="200" height="200"  class="cards"/><br><br>
 	<input type="button" value="выбрать">
 </div>
 <div class="container3">
     <p class="tag"><b>Кремовый торт</b></p>
-   <img src="image/blud.jpg"  width="200" height="150"  class="cards"/>
+   <img src="image/blud.jpg"  width="200" height="200"  class="cards"/><br><br>
    <input type="button" value="выбрать">
 </div>
 <div class="container4">
  <p class="tag"><b>Торт с розами</b></p>
-<img src="image/rose.jpg"  width="200" height="150"  class="cards"/>
+<img src="image/rose.jpg"  width="200" height="200"  class="cards"/><br><br>
 <input type="button" value="выбрать">
 </div>
 		</div>
