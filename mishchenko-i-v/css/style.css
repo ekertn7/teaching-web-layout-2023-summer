@@ -1,0 +1,32 @@
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 95vh;
+}
+
+.container__wrapper {
+    display: flex;
+    gap: 15px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container__wrapper__content {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+img {
+    width: 30%;
+}
