@@ -13,8 +13,6 @@ h2 {
 
 h1 {
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 20px;
     background-color: #aca4a4;
 }
     
@@ -25,7 +23,7 @@ h1 {
     justify-content: center;
     background-color: rgb(85, 84, 84);
     gap: 15px;
-    height: 60vh;
+    height: 100vh;
 }
 
 .container__boxes__box {
