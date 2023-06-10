@@ -2,7 +2,7 @@
 body
  {
     height: 100vh;
-    margin: 0;
+    margin: 0 auto;
  }
 
  .wrapper
@@ -10,6 +10,8 @@ body
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+
     width: 100%;
     height: 100%;
  }
@@ -17,6 +19,7 @@ body
 .plants
 {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     gap: 10px;
 }
@@ -35,4 +38,6 @@ body
 {
     width: 200px;
     height: 150px;
+    border: 1px solid #d9bd9e;
+    border-radius: 5px;
 }
