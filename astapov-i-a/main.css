@@ -1,0 +1,83 @@
+body{
+    font-family: serif;
+	background-color: #F5F5F5;
+}
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('./fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Kabarett Decor DEMO Thin';
+	src: url('./fonts/kabarett_decor_demo_thin.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/kabarett_decor_demo_thin.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/kabarett_decor_demo_thin.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/kabarett_decor_demo_thin.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/kabarett_decor_demo_thin.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/kabarett_decor_demo_thin.svg#kabarett_decor_demo_thin') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+.card{
+    display: block;
+    background-color: #F5DEB3;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 10px auto;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+.title{
+    font-family: 'Kabarett Decor DEMO Thin', cursive;
+    text-align: center;
+    font-size: 38px;
+}
+
+.text{
+    font-size: 25px;
+}
+
+.paragraph {
+	margin-top: 10px;
+    margin-bottom: 10px;
+	font-family: serif;
+	text-align: center;
+}
+
+.author{
+    margin-top: 65px;
+	text-align: right;
+    font-family: 'Teddy Bear', cursive;
+    font-size: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+button{
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+	cursor: pointer;
+}
+button:hover{
+    transform: translateY(-3px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.like{
+    background-color: #228B22;  
+}
+
+.dislike{
+    background-color: #B22222;
+}
