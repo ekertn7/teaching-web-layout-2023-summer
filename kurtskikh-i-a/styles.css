@@ -1,0 +1,87 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 70%;
+	margin: 10px auto;
+}
+
+.poem {
+	border-radius: 30px;
+	background-color: #262626;
+	color: #f1f5f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+	padding: 20px 6rem;
+	text-align: center;
+}
+
+.header p {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+}
+
+.content p {
+	font-size: 24px;
+	font-family: 'Lobster', cursive;
+}
+
+.author {
+	width: 100%;
+	display: flex;
+	justify-content: end;
+}
+
+.author p {
+	font-size: 26px;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 12rem;
+}
+
+.buttons button {
+	cursor: pointer;
+	border: none;
+	transition: all 0.3s ease-in-out;
+	padding: 10px 40px;
+	border-radius: 30px;
+}
+
+.buttons button p {
+	font-size: 22px;
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.buttons .like {
+	background-color: #10b981;
+}
+
+.buttons .dislike {
+	background-color: #f43f5e;
+}
+
+.buttons .like:hover {
+	background-color: #065f46;
+}
+
+.buttons .dislike:hover {
+	background-color: #be123c;
+}
